@@ -20,8 +20,9 @@ const Navbar = () => {
       path: "/training",
       hasDropdown: true,
       subLinks: [
-        { id: 41, name: "Certificate", path: "/training/certificate" },
-        { id: 42, name: "Verify Certification", path: "/training/verify" },
+        { id: 41, name: "Training & Placement", path: "/training-placement" },
+        { id: 42, name: "Certificate", path: "/training/certificate" },
+        { id: 43, name: "Verify Certification", path: "/training/verify" },
       ],
     },
     { id: 5, name: "Blog", path: "/blog", hasDropdown: false },
